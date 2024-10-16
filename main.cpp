@@ -9,6 +9,13 @@
 int main() {
 
   Editor().Start();
+/*
+  while(true) {
+    window.ProcessCharacter(getch());
+    printw("%c", ch);
+    refresh();
+  }
+*/
 
   return 0;
 }
